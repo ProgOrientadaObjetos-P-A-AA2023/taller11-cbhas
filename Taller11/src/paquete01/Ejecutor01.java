@@ -23,8 +23,7 @@ public class Ejecutor01 {
         mD.establecerValorMenu();
         menus.add(mD);
 
-        MenuCarta mC = new MenuCarta(1.5, 2, 10, "Carta001",
-                6);
+        MenuCarta mC = new MenuCarta(1.5, 2, 10, "Carta001", 6);
         mC.establecerValorMenu();
         menus.add(mC);
 
