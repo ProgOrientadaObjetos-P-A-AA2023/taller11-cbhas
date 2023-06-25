@@ -27,7 +27,7 @@ public class Ejecutor01 {
         mC.establecerValorMenu();
         menus.add(mC);
 
-        Cuenta c = new Cuenta("René Elizalde", menus, 10);
+        Cuenta c = new Cuenta("Sebastián", menus, 10);
         c.establecerValorSubtotal();
         c.establecerValorTotal();
 

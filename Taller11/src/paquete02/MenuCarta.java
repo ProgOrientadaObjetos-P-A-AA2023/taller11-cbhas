@@ -46,7 +46,8 @@ public class MenuCarta extends Menu {
 
     @Override
     public String toString() {
-        String cadena = String.format("\nMenu a la Carta:\n"
+        String cadena = String.format("\n"
+                + "Menu a la Carta:\n"
                 + "\tPlato: %s\n"
                 + "\tValor Inicial: $%.1f\n"
                 + "\tValor guarnicion: $%.1f\n"                

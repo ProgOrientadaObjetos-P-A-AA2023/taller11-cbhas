@@ -29,7 +29,7 @@ public class MenuEconomico extends Menu {
                 + "\tPlato: %s\n"
                 + "\tValor Inicial: $%.2f\n"
                 + "\tPorcentaje Descuento: %.2f porciento.\n"
-                + "\tValor del Menu: $%.2f\n\n",
+                + "\tValor del Menu: $%.2f\n",
                 nombrePlato,
                 valorInicialMenu,
                 porcentajeDescuento,
