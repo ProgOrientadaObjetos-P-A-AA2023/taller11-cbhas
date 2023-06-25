@@ -9,8 +9,8 @@ public class MenuEconomico extends Menu {
         porcentajeDescuento = pD;
     }
 
-    public void establecerPorcentajeDesc(double d) {
-        porcentajeDescuento = d;
+    public void establecerPorcentajeDescuento(double pD) {
+        porcentajeDescuento = pD;
     }
 
     @Override

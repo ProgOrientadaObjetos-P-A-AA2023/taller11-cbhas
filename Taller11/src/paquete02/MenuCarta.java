@@ -14,16 +14,16 @@ public class MenuCarta extends Menu {
         porcentajeAdicional = pA;
     }
 
-    public void establecerValorGuarnicion(double a) {
-        valorGuarnicion = a;
+    public void establecerValorGuarnicion(double vG) {
+        valorGuarnicion = vG;
     }
 
-    public void establecerValorBebida(double a) {
-        valorBebida = a;
+    public void establecerValorBebida(double vB) {
+        valorBebida = vB;
     }
 
-    public void establecerPorcentajeAdicional(double a) {
-        porcentajeAdicional = a;
+    public void establecerPorcentajeAdicional(double pA) {
+        porcentajeAdicional = pA;
     }
 
     @Override

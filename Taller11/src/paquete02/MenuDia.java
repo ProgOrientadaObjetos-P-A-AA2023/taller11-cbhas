@@ -12,12 +12,12 @@ public class MenuDia extends Menu {
         valorBebida = vB;
     }
 
-    public void establecerValorPostre(double b) {
-        valorPostre = b;
+    public void establecerValorPostre(double vP) {
+        valorPostre = vP;
     }
 
-    public void setValorBebida(double b) {
-        valorBebida = b;
+    public void establecerValorBebida(double vB) {
+        valorBebida = vB;
     }
 
     @Override

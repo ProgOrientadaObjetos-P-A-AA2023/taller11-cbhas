@@ -12,12 +12,12 @@ public class MenuNiños extends Menu {
         valorPastel = vP;
     }
 
-    public void establecerValorHelado(double c) {
-        valorHelado = c;
+    public void establecerValorHelado(double vH) {
+        valorHelado = vH;
     }
 
-    public void establecerValorPastel(double c) {
-        valorPastel = c;
+    public void establecerValorPastel(double vP) {
+        valorPastel = vP;
     }
 
     @Override
