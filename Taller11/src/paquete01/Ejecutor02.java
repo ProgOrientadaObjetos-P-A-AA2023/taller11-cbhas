@@ -28,7 +28,6 @@ public class Ejecutor02 {
         ArrayList<Menu> lista = new ArrayList();
 
         for (int i = 0; i < datos001.length; i++) {
-
             String nombrePlato = datos001[i][0];
             double valorInicial = Double.parseDouble(datos001[i][1]);
             double valorHelado = Double.parseDouble(datos001[i][2]);
@@ -36,7 +35,6 @@ public class Ejecutor02 {
             Menu mN = new MenuNiños(valorHelado, valorPastel,
                     nombrePlato, valorInicial);
             lista.add(mN);
-
         }
 
         for (int i = 0; i < datos002.length; i++) {
@@ -60,7 +58,6 @@ public class Ejecutor02 {
         }
 
         for (int i = 0; i < datos004.length; i++) {
-
             double valorGuarnicion = Double.parseDouble(datos004[i][2]);
             double valorBebida = Double.parseDouble(datos004[i][3]);
             double porcentajeAdicional = Double.parseDouble(datos004[i][4]);
@@ -83,3 +80,5 @@ public class Ejecutor02 {
     }
     
 }
+
+// @cbhas
